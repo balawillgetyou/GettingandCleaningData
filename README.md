@@ -24,4 +24,4 @@ Apart from the instructions provided with the project, the following inputs were
 
 * Clarifications for what is/ is not tidy data for this specific project at https://class.coursera.org/getdata-015/forum/thread?thread_id=27
 
-* General tidy data concepts in Hadley's white paper at vita.had.co.nz/papers/tidy-data.pdf
+* General tidy data concepts in Hadley's white paper at vita.had.co.nz/papers/tidy-data.pdf 

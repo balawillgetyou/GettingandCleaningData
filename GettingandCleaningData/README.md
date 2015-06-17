@@ -1,6 +1,6 @@
 # GettingandCleaningData
-Project submission
-The is the explanation for the code written for the project in the "Getting and Cleaning Data" course on Coursera. 
+
+This is the explanation for the code written for the project in the "Getting and Cleaning Data" course on Coursera. 
 
 This is how the R script is organized,
 
@@ -12,7 +12,7 @@ This is how the R script is organized,
 6. All the pieces of data are assembled. Along with prior steps, this meets the requirement in step 1 of the instructions.
 7. Actitvity labels are applied per step 3 of the given instruction.
 8. The hyphen and parantheses in the measured variable column names prevent easy usage of the dplyr package. So, these characters are stripped out in the column names. This also makes the column names relatively easy to read per step 4 of the instructions. The temptation to force a change in names just for the sake of doing so has been resisted. "average" could have been prefixed to all column names but this would make the names even longer and less readable.
-9. The final data set is being created in two steps. First by grouping, by activity and subject. Then, by summarizing, to obtain the average of each variable for each activity and each subject. Each of the 66 variables is in its own column. The combination of actvity and the subject performing it is an observation and each one is in a separate row.Thus this is tidy data.
+9. The final data set is being created in two steps. First by grouping, by activity and subject. Then, by summarizing, to obtain the average of each variable for each activity and each subject. Each of the variables is in its own column. The combination of actvity and the subject performing it is an observation and each one is in a separate row.Thus this is tidy data.
 
 IMPORTANT: The project instruction states "The code should have a file run_analysis.R in the main directory that can be run as long as the Samsung data is in your working directory." There is no requirement to creating sub directories/ read files from sub- directories. So, the script has been written assuming all the files to be read are in the working directory itself and not in any sub- directories.
 

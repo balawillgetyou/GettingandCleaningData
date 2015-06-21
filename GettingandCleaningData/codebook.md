@@ -31,5 +31,5 @@ The first of the 68 columns lists these activities. The second column identifies
 
 Each of the remaining 66 columns is the average of individual readings resulting from the subjects performing the activities. Some are linear, others angular. Some show mean data, others standard deviation. During the transformations, the names of these 66 columns were tweaked to remove special characters. The temptation to force a change in names just for the sake of doing so has been resisted. "average" could have been prefixed to all column names but this would make the names even longer and less readable.
 
-[I don't know enough of this domain to explain what each column actually measures and I don't think it is appropriate to copy + paste from the feaures_info.txt file.]
+[Note to peer reviewers: I don't know enough of this domain to explain what each column actually measures. For example how is "tBodyGyroJerkstdZ" different from "tGravityAccMagstd"? As for units of measure, I know that standard deviation does not have one but raw velocity and acceleration do. But does normalized data have units?]
 
